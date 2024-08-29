@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Estilos para el encabezado */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+header p.title {
+    font-size: 1.2em;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+/* Estilos para la foto de perfil */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+    border: 3px solid #333;
+}
+
+/* Estilos para las secciones */
+.section {
+    margin-bottom: 30px;
+}
+
+.section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.job, .education {
+    margin-bottom: 20px;
+}
+
+.job h3, .education h3 {
+    font-size: 1.3em;
+    color: #444;
+}
+
+.job h4, .education p {
+    font-size: 1.1em;
+    color: #777;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #555;
+}
+
+/* Estilos adicionales */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    header p.title {
+        font-size: 1em;
+    }
+
+    .profile-photo {
+        width: 120px;
+        height: 120px;
+    }
+}
